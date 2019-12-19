@@ -7,13 +7,7 @@
     "start": "cross-env NODE_ENV=development webpack-dev-server --config ./webpack/dev.js",
     "build": "rimraf dist && cross-env NODE_ENV=production webpack --config ./webpack/prod.js",
     "lint": "eslint src --ext .js,.jsx,.ts,.tsx --cache --fix",
-    "pre-commit": "node ./scripts/pre-commit",
-    "clean": "rm -rf node_modules && rm -rf packages/*/node_modules",
-    "docs": "typedoc --out docs/mipha packages/mipha && typedoc --out docs/reactor ../reactor",
-    "test": "cross-env NODE_ENV=development karma start karma.conf.js --colors"
-  },
-  "pre-commit": {
-    "silent": true,
+    "clean": "rm -rf node_modules && rm -rf packages/*/node_modules"
   },
   "repository": {
     "type": "git",

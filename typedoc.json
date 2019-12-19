@@ -1,9 +1,0 @@
-{
-  "theme": "markdown",
-  "exclude": ["**/node_modules/**"],
-  "includeDeclarations": true,
-  "hideSources": true,
-  "hideGenerator": true,
-  "readme": "none",
-  "mode": "modules"
-}
